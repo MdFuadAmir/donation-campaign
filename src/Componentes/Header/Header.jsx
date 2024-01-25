@@ -7,7 +7,7 @@ const Header = () => {
     <li><NavLink to="/statistics">Statistics</NavLink></li>
     </>
   return (
-    <div className="navbar ">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className=" lg:hidden">
@@ -33,7 +33,7 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <img src="" alt="Logo.png" />
+        <img src={'https://i.imgur.com/TmNFTdz.png'} alt="Logo.png" />
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
